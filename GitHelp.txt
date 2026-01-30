@@ -1,0 +1,15 @@
+Команды для регистрации ваших данных
+git config --global user.name "Your name"
+git config --global user.email "your-email@example.com"
+
+
+Команды только для одно проекта
+git init
+git remote add origin https://github.com/arzy-54-2/oop-63-2.git
+
+
+Основные команды для работа с Git
+
+git status  | состаяние проекта
+git add .      | Скопировать все в буффэр обмена
+git commit -m "lesson1"
