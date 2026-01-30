@@ -13,3 +13,4 @@ git remote add origin https://github.com/arzy-54-2/oop-63-2.git
 git status  | состаяние проекта
 git add .      | Скопировать все в буффэр обмена
 git commit -m "lesson1"
+git branch
