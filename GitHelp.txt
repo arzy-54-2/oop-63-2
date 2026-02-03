@@ -23,3 +23,7 @@ git checkout branch_name
 
 git switch -c branch_name
 git checkout -b branch_name
+
+
+git reset .
+git restore .
