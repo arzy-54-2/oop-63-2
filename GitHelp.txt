@@ -20,3 +20,6 @@ git branch branch_name          | Создание ветки
 git switch branch_name
                                 | Переклюбчение на ветку
 git checkout branch_name
+
+git switch -c branch_name
+git checkout -b branch_name
