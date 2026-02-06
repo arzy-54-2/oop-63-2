@@ -27,3 +27,9 @@ print(type(kirito))
 # def some():
 #     pass
 
+dcasdcwas
+
+dqewdf
+cqw
+dqw
+dq

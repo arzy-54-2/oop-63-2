@@ -1,4 +1,7 @@
 # Родительский/Супер класс
+from turtle import write_docstringdict
+
+
 class Hero:
     # Конструктор класса
     def __init__(self, nick, hp, lvl):
@@ -52,3 +55,7 @@ class Duck(Fly,Swim):
 donald_duck = Duck()
 donald_duck.action()
 print(Duck.__mro__)
+dawd
+assert sda
+write_docstringdict(awd
+                    )
