@@ -30,3 +30,29 @@ git restore .
 
 
 git pull      | Стянуть изменения из репы
+
+
+production
+
+-- Realise:1.0.0.1
+
+test|stage|
+
+dev
+
+feat/register
+feat/send_otp
+feat/...
+
+
+-m "feat: register added new file register.py #link"
+
+-m "fix: fixed line method"
+
+-m "update: update"
+
+
+
+
+
+
