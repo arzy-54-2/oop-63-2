@@ -53,6 +53,12 @@ feat/...
 
 
 
+py -m venv name_venv
+python -m venv name_venv
+python3 -m venv name_venv
 
 
+source name_venv/bin/activate       Mac|Linux
 
+name_venv\Scripts\activate     Windows|local_terminal-comand_promt
+source name_venv\Scripts\activate     Windows|bash_terminal

@@ -20,28 +20,38 @@
 # # t2 = 3
 # # t3 = t + t2
 # # print(t3)
-# class MyInt:
-#     view_count = 0
+class MyInt:
+    view_count = 0
+
+
+    def __init__(self, value):
+        self.value = value
+
+    def __add__(self, other):
+        if type(self) == type(other):
+            return self.value + other.value
+        return print()
+
+    def __str__(self):
+        return str(self.value)
+
+    def __call__(self, *args, **kwargs):
+        self.view_count += 1
+        print(self.view_count)
 #
-#
-#     def __init__(self, value):
-#         self.value = value
-#
-#     def __add__(self, other):
-#         if type(self) == type(other):
-#             return self.value + other.value
-#         return print()
-#
-#     def __str__(self):
-#         return str(self.value)
-#
-#     def __call__(self, *args, **kwargs):
-#         self.view_count += 1
-#         print(self.view_count)
-#
-# my_int1 = MyInt(12)
-# my_int2 = MyInt(10)
+my_int1 = MyInt(12)
+my_int2 = MyInt(10)
 # #
+
+class Bank:
+
+    def __init__(self, n):
+        self.n = n
+
+    def test(self):
+        return self.n.name
+
+user = Bank(my_int2)
 # # my_int1()
 # # my_int1()
 # # my_int1()
